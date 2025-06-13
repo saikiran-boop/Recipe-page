@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'headfont';
+    src:url('youngserif-regular-webfont.woff2')
+        format('woff2'),
+        url('youngserif-regular-webfont.woff')
+        format('woff'),
+        url('YoungSerif-Regular.ttf')
+        format('truetype');
+}
+@font-face {
+    font-family: 'linefont';
+    src: url('Outfit-VariableFont_wght.ttf')
+    format('truetype');
+}
+
+
+h1,h2{
+    font-family: headfont, sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    width: 80%;
+    position: relative;
+    left: 30px;
+}
+h1{
+    margin-bottom: 10px;
+}
+h2{
+    color:  rgb(133, 70, 50);
+}
+
+ul li,
+ol li,
+.Nutrition{
+font-family: linefont, serif;
+font-weight: 300;
+color: rgba(0,0,0,0.7);
+width: 80%;
+position: relative;
+left: 20px;
+}
+
+
+article p{
+  
+    font-family: linefont, serif;
+    font-weight: 300;
+    color: rgba(0,0,0,0.7);
+    padding: 5px;
+    width: 80%;
+    position: relative;
+    left: 30px;
+    margin-top: 10px;
+    
+}
+
+.amount{
+    font-family: linefont, serif;
+    font-weight: bold;
+    color: rgb(133, 70, 50);
+}
+
+tr td{
+    font-family: linefont, serif;
+    color: rgba(0,0,0,0.5);
+}
+
+.preparetime h3{
+    color: rgb(180, 93, 122);
+    display: inline;
+    position: relative;
+    left: 40px;
+    top: 13px;
+    margin-bottom: 10px;
+}
+
+body{
+    background-color: rgb(245, 233, 222);
+}
+
+article{
+    border:0 solid white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 0 auto;
+    width:51%;
+    position: relative;
+    min-width: 353px;
+    max-width: 50%;
+    max-height: 1798px;
+}
+
+img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 20px;
+  display: inline-block;
+  position: relative;
+  margin-top: 21.87px;
+  left: 5%;
+}
+
+article div{
+    width: 50vw;
+}
+
+.preparetime{
+    width: 88%;
+    height: 157px;
+    background-color: rgb(255, 233, 222);
+    border-radius: 20px;
+    position: relative;
+    margin: 0 auto;
+    font-weight: 300;
+    font-family: linefont, serif;
+}
+
+h2{
+    color:  rgb(133, 70, 50);
+}
+
+.preparetime ul{
+    padding-left: 25px;
+}
+li{
+    margin: 10px;
+    line-height: 1.5;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  position: relative;
+  left: 30px;
+  bottom: 10px;
+}
+
+table td {
+  padding: 12px 0;
+}
+
+table td:nutrient {
+  text-align: left;
+}
+
+table td:amount {
+  text-align: right;
+  color: rgb(133, 70, 50); /* warm brown */
+  font-weight: bold;
+}
+
+table tr:not(:last-child) td {
+  border-bottom: 1px solid #eee;
+}
